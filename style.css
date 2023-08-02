@@ -1,0 +1,334 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,700&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+*{
+    /* background-color: #282828; */
+    margin:0px;
+    padding: 0px;
+    font-family: 'DM Sans';
+}
+.main-section{
+    display:flex;
+    /* overflow:hidden; */
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.side-bar{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: left;
+     width: 18vw;
+     height: 90vh;
+     flex-shrink: 0;
+     color: white;
+     background-color: black;
+     padding:5px;
+     padding-left: 10px;
+     padding-top: 20px;
+     padding-bottom: 30px;
+     /* font-size: 19px; */
+     font-weight: 700;
+     position: sticky;
+     top:0px;
+     overflow-y: scroll;
+}
+.logo{
+    width:100px;
+    height:60px;
+    flex-shrink: 0;
+    background-color: black;
+    margin-bottom: 10px;
+}
+.nav1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    background-color: black;
+    margin-bottom: 5px;
+}
+.nav1>div{
+    display: flex;
+    justify-content: start;
+    background-color: black;
+    align-items: center;
+    width: 16vw;
+    height: 40px;
+    padding:5px ;
+    flex-wrap: wrap;
+
+}
+.nav1>div:hover{
+    border-radius: 6px;
+    background-color: #282828;
+    cursor: pointer;
+   
+}
+.nav1>div:active{
+    border-radius: 6px;
+    background-color: #282828;
+}
+.nav1>div>a{
+    /* margin-bottom: 10px; */
+    text-decoration: none;
+    color: white;
+    margin-right:20px;
+}
+.nav1>div>img{
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+.nav2{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    background-color: black;
+     margin-bottom: 5px;
+}
+.nav2>div{
+    display: flex;
+    justify-content: start;
+    background-color: black;
+    width: 16vw;
+    height: 40px;
+    padding:5px ;
+    flex-wrap: wrap;
+
+}
+.nav2>div:hover{
+    border-radius: 6px;
+    background-color: #282828;
+    cursor: pointer;
+   
+}
+.nav2>div>a{
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: white;
+    margin-right:20px;
+    width: 37.057px;
+    height: 37.057px;
+    
+}
+.nav2>div>img{
+    width: 20px;
+    height: 22px;
+    flex-shrink: 0;
+    
+    
+}
+.bg-light-green{
+   background-color: #004638;
+}
+.nav3{
+    cursor: pointer;
+    padding-left: 13px;
+     margin-bottom: 5px;
+}
+.install>div>a{
+    margin-right: 20px;
+     margin-top: 5px;
+}
+.main-div{
+    background-color: rgb(22,22,22);
+    width:90vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   
+}
+.head-part{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.profile{
+    Width:147px;
+    Height:41px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right:10px ;
+    border-radius: 15px;
+    font-size: 20px;
+}
+.H-cards{
+    display: flex;
+    justify-content: start;
+    margin-right:10px;
+    flex-wrap: wrap;
+    
+}
+.card1 {
+    display: flex;
+    align-items: center;
+    background-color: rgb(48, 48, 48);
+    height: 100px;
+    width: 350px;
+    border-radius: 4px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.card1:hover,
+.card1:active {
+    background-color: #d2d2d2;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+  
+.playcard{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+
+.card2 {
+    width: 250px;
+    height: 310px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    background-color: rgb(36, 36, 36);
+    box-shadow: 0 0 10px rgba(128, 128, 128, 0.5);
+}
+.card2:hover,
+.card2:active {
+    background-color: #999; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+.player{
+      display: flex;
+      justify-content: space-between;
+      width:100vw;
+      height: 90px;
+      background-color: #181818;
+}
+.player>div{
+      cursor: pointer;
+}
+.artist{
+    width:240;
+    height:70;
+    justify-content: space-between  ;
+}
+.f-section{
+    position: fixed;
+    bottom:0px;
+    height:15vh;
+}  
+.foot{
+    display: flex;
+    justify-content: end;
+    width:100vw;
+    color:black;
+    font-weight: bold;
+    align-items: center;
+    background-color:rgb(30,215,96) ;
+    padding-left: 20px;
+    flex-wrap: wrap;
+    height:20px;
+} 
+
+
+
+
+ /* playlist css */
+
+
+
+
+.side-panel{
+    display: flex;
+    background-color: black;
+    flex-direction: column;
+    height: 90vh;
+    width:18vw;
+    justify-content: space-between;
+    color:white;
+    font-family: Circular Std Medium;
+    position: sticky;
+    top:0px;
+    flex-wrap: wrap;
+}
+.nav-part{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      width: 16vw;
+      margin-top: 10px;
+      padding-left: 20px;
+      border-bottom: 1px solid  #282828;
+}
+.nav2>h4{
+    color: #B3B3B3;
+    
+}
+.main-div1{
+    /* background-image: linear-gradient(to top, black 20%,rgb(139,168,161)); */
+     background-image: linear-gradient(180deg, #90AEA7 0%, #000 100%);
+    width:82vw;
+    font-family: Circular Std Medium;
+}
+.play-D{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.play-D>div>h1{
+   color: #FFF;
+   font-family: Circular Std Medium;
+   font-size: 80px;
+   font-style: normal;
+   font-weight: 900;
+  line-height: normal;
+  letter-spacing: -1.8px;
+}
+.play-D>div>p{
+    color: #FFF;
+    opacity: 0.7;
+}
+.title-div{
+    /* margin-right:300px; */
+}
+.play-list{
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+    
+}
+.play-btn{
+     display: flex;
+     justify-content: start;
+     padding: 30px;
+     background-color: rgb(38,46,44);
+     /* background-image: linear-gradient(180deg, #90AEA7 0%, #000 100%); */
+
+ }
+ .bg-grey{
+    background-color:  rgb(48,48,48);
+    padding: 8px;
+    border-radius: 10px;
+    height: 50px;  
+ }
+ .bg-black1{
+    background-color: #000;
+ }
+ .bg-black1:hover{
+    background-color:  rgb(48,48,48);
+ }
+ .f1-section{ 
+    position: fixed;
+    bottom:0px;
+    height: 12vh;
+ }
