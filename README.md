@@ -2,9 +2,9 @@
 
 # Here is Deploy Link - 
 
- main page - https://maheshb45.github.io/Spotify-Clone/
+ main page - https://tejbari5.github.io/Spotify-Clone-July/
 
- playlist page - https://maheshb45.github.io/Spotify-Clone/playlist.html
+ playlist page - https://tejbari5.github.io/Spotify-Clone-July/playlist.html
 
 # Project Overview -
 
